@@ -12,7 +12,7 @@ function DetailPage(props) {
   useEffect(() => {
     getData();
     getCollection();
-  });
+  }, [router]);
 
   const getData = () => {
     axios

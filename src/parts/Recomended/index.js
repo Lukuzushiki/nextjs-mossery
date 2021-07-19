@@ -26,7 +26,6 @@ function Recomended(props) {
                 </div>
                 <Link
                   href={`/detail-page/${item._id}`}
-                  as={`/detail-page/${item._id}`}
                 >
                   <a className="streched-link" />
                   {/* NOTE Fake Children */}

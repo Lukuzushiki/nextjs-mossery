@@ -11,6 +11,7 @@ function Details(props) {
           <div className="slider">
             <div className="preview">
               <div className="item rounded-lg h-full overflow-hidden">
+                {console.log(data.imageUrl)}
                 <img
                   src={`${process.env.REACT_APP_CLOUD}/${data.imageUrl}`}
                   alt=""
