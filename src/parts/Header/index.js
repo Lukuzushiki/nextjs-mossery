@@ -34,7 +34,7 @@ function Header(props) {
                 </a>
               </li>
               <li className="mx-3 py-6 md:py-0">
-                <a href="/delivery" className="text-black hover:text-white">
+                <a href="/" className="text-black hover:text-white">
                   Catalog
                 </a>
               </li>
